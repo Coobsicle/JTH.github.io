@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/convert_temp.js" defer></script>
+</head>
+<body>
+    <h1>Temperature<br>Converter</h1>
+    <hr>
+    <p>
+        <input id="f-in" type="number" min="-459.67" placeholder="Enter °F">
+        <label for="f-in">°F:</label>
+    </p>
+    <p>
+        <input id="c-in" type="number" min="-273.15" placeholder="Enter °C">
+        <label for="c-in">°C:</label>
+    </p>
+    <input id="convertButton" type="button" value="Convert Units">
+    <p id="message">
+        <!-- Use this to display contextual messages to user. -->
+    </p>
+    <p>
+        <img id="weatherIcon" src="images/C-F.png" alt="Weather Icon">
+    </p>
+</body>
+</html>
